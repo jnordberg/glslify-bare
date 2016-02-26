@@ -1,0 +1,13 @@
+{
+  "name": "glslify-bare",
+  "version": "1.0.0",
+  "description": "glslify browserify transform",
+  "main": "index.js",
+  "author": "Johan Nordberg <code@johan-nordberg.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glslify-bundle": "5.x",
+    "glslify-deps": "1.x",
+    "through2": "2.x"
+  }
+}
