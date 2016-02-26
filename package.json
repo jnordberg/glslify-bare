@@ -9,5 +9,9 @@
     "glslify-bundle": "5.x",
     "glslify-deps": "1.x",
     "through2": "2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnordberg/glslify-bare.git"
   }
 }
