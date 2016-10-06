@@ -4,8 +4,10 @@ var path = require('path')
 var through = require('through2')
 
 function transform(filename, options) {
-  if (path.extname(filename) !== '.glsl') return through()
 
+  var exts = ['.glsl', '.vert', '.frag'];
+  if (exts.indexOf(path.extname(filename)) === -1) return through()
+  
   var deps = glslifyDeps()
   var transforms = options.transform || []
 
